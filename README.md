@@ -4,6 +4,9 @@ Common meta tests for PowerShell DSC resources repositories.
 ## DscResourceCommonTests
 ### Unreleased
 
+### 0.3.0.0
+* Fixing a path error
+
 ### 0.2.0.0
 * Fixed unicode and path bugs in tests
 
@@ -12,6 +15,9 @@ Common meta tests for PowerShell DSC resources repositories.
 
 ## DscResourceTestHelper
 ### Unreleased
+
+### 0.3.0.0
+* Fixing a path error
 
 ### 0.2.0.0
 * Fixed unicode and path bugs in tests
