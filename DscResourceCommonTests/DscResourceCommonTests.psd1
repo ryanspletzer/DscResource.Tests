@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'MetaFixers.psm1'
+RootModule = 'Meta.Tests.ps1'
 
 # Version number of this module.
 ModuleVersion = '0.3.0.0'
