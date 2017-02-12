@@ -503,7 +503,7 @@ function Get-ClassResourceNameFromFile
 
     $classResourceNames = [String[]]@()
 
-    if (Test-FileContainsClassResource -Path $FilePath)
+    if (Test-FileContainsClassResource -FilePath $FilePath)
     {
         $fileAst = [System.Management.Automation.Language.Parser]::ParseFile($FilePath, [ref]$null, [ref]$null)
 
