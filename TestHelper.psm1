@@ -486,7 +486,7 @@ function Test-FileContainsClassResource
         The full path to the file to test.
 
     .EXAMPLE
-        Get-ClassResourceNameFromFile -ModulePath 'c:\mymodule\myclassmodule.psm1'
+        Get-ClassResourceNameFromFile -FilePath 'c:\mymodule\myclassmodule.psm1'
 
         This command will get any DSC class resource names from the myclassmodule module.
 #>
